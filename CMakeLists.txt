@@ -4,8 +4,8 @@ project(sensors-toolkit)
 
 include(CMakeDependentOption)
 include(SuperBuildDepends)
-superbuild_option(cpp17)
-superbuild_option(modern-cpp)
+#superbuild_option(cpp17)
+#superbuild_option(modern-cpp)
 
 cmake_dependent_option(SENSORS_BUILD_PC_APP "..." ON "NOT IOS" OFF)
 cmake_dependent_option(SENSORS_BUILD_IOS_APP "..." ON "IOS" OFF)
