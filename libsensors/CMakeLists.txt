@@ -4,7 +4,7 @@ project(libsensors LANGUAGES CXX)
 
 include(SuperBuildDepends)
 if(NOT IOS AND NOT ANDROID)
-  superbuild_extern(ffmpeg)
+  #superbuild_extern(ffmpeg)
 endif()
 
 add_library(sensors
